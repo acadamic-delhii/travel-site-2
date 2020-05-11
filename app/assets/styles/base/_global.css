@@ -11,3 +11,7 @@ img {
 a {
 	color: $mainOrange;
 }
+
+* {
+	box-sizing: border-box;
+}
