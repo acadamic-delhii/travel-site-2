@@ -17,7 +17,8 @@ class ClientArea {
     }
 
     sendRequest(){
-        let requestUrl = "https://objective-poitras-7c6fa5.netlify.app/.netlify/functions/secret-area"
+        //let requestUrl = "https://objective-poitras-7c6fa5.netlify.app/.netlify/functions/secret-area"
+        let requestUrl = "https://app.netlify.com/sites/objective-poitras-7c6fa5/functions/secret-area"
         let requestBody = {password: this.field.value}
 
         Axios.post(requestUrl, requestBody).then(response => {

@@ -19,8 +19,7 @@ exports.handler = function(event, context, callback) {
         })
     } else {
         callback(null, {
-            statusCode: 200, 
-            body: "DEBUG 1"
+            statusCode: 401
         })
     }
 }
